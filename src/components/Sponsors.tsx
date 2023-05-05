@@ -33,7 +33,7 @@ const Sponsors = () => {
         <div className="text-5xl lg:text-6xl text-center font-bold">
           Meet our sponsors
         </div>
-        <div className="w-full mt-16 lg:mt-20 grid grid-cols-2 lg:grid-cols-5 gap-2 lg:gap-4">
+        <div className="w-full mt-16 lg:mt-20 grid grid-cols-2 lg:grid-cols-5 gap-2 lg:gap-4 justify-items-center">
           {sponsors.map((image, key) => (
             <div
               key={key}
