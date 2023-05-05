@@ -5,7 +5,7 @@ import MultiEvent from "./MultiEvent";
 const Events = () => {
   return (
     <div
-      className="relative w-full flex justify-center pt-40 font-jakarta"
+      className="relative w-full flex justify-center lg:pt-16 pt-40 font-jakarta"
       id="events"
     >
       <div className="w-full max-w-screen-xl px-5">

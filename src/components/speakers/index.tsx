@@ -36,13 +36,12 @@ const Speakers = () => {
   ];
 
   return (
-    <div className="pt-60 w-full flex justify-center" id="speakers">
+    <div className="pt-32 lg:pt-60 w-full flex justify-center" id="speakers">
       <div className="w-full max-w-screen-xl">
         <div className="text-5xl lg:text-6xl text-center font-bold">
           Meet our speakers
         </div>
-
-        <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 justify-items-center gap-y-8 mt-24">
+        <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 justify-items-center gap-y-8 mt-16 lg:mt-24">
           {speakers.map((speaker) => (
             <Speaker {...speaker} />
           ))}
