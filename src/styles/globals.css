@@ -1,40 +1,45 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
 body {
-    color: #fff;
-    /* font-family: "jakarta"; */
-    font-feature-settings: "liga" on;
+  color: #fff;
+  /* font-family: "jakarta"; */
+  font-feature-settings: "liga" on;
 }
 
 @font-face {
-    font-family: "jakarta";
-    src: url("/fonts/jakarta.ttf");
-    font-feature-settings: "liga" on;
+  font-family: "jakarta";
+  src: url("/fonts/jakarta.ttf");
+  font-feature-settings: "liga" on;
 }
 
 .gradient-button {
-    position: relative;
-    background-image: linear-gradient(to right, #ebc1ff, #00fffc, #5c23ff);
-    z-index: 2;
+  position: relative;
+  background-image: linear-gradient(to right, #ebc1ff, #00fffc, #5c23ff);
+  z-index: 2;
 }
 
 .gradient-button:before {
-    position: absolute;
-    content: "";
-    inset: 0;
-    z-index: 1;
-    opacity: 0;
-    background-image: linear-gradient(to right, #00fffc, #5c23ff, #ebc1ff);
-    transition: all 1s ease-in-out;
+  position: absolute;
+  content: "";
+  inset: 0;
+  z-index: 1;
+  opacity: 0;
+  background-image: linear-gradient(to right, #00fffc, #5c23ff, #ebc1ff);
+  transition: all 1s ease-in-out;
 }
 
 .container:hover .gradient-button::before {
-    opacity: 1;
-    border-radius: 9999px;
+  opacity: 1;
+  border-radius: 9999px;
 }
 
 .font-feature {
-    /* font-feature-settings: "liga;";
+  /* font-feature-settings: "liga;";
   -webkit-font-feature-settings: "liga"; */
 }

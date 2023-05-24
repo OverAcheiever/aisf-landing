@@ -18,13 +18,13 @@ const Info = () => {
                 rel="noopener noreferrer"
                 className="font-semibold text-xl hover:underline cursor-pointer"
               >
-                Hackathon{" "}
+                Coworking{" "}
               </a>
               <ArrowUpRight className="ml-0.5 w-4" />
             </div>
             <div className="opacity-75 mt-2">
-              100 of the best builders in San Francisco. 3 days at the Lab.
-              $100k in prizes.
+              Work out of the Founders, Inc. lab twice a month alongside other
+              AI hackers.
             </div>
           </div>
         </div>
@@ -38,13 +38,13 @@ const Info = () => {
                 rel="noopener noreferrer"
                 className="font-semibold text-xl hover:underline cursor-pointer"
               >
-                Summit{" "}
+                Speaker Panels{" "}
               </a>
               <ArrowUpRight className="ml-0.5 w-4" />
             </div>
             <div className="opacity-75 mt-2">
-              Meet our startup founders, hear from AI thought leaders, and have
-              some fun.
+              Get invited to private panels and keynotes from AI industry
+              leaders.
             </div>
           </div>
         </div>
@@ -58,13 +58,13 @@ const Info = () => {
                 rel="noopener noreferrer"
                 className="font-semibold text-xl hover:underline cursor-pointer"
               >
-                Events{" "}
+                Meetups{" "}
               </a>
               <ArrowUpRight className="ml-0.5 w-4" />
             </div>
             <div className="opacity-75 mt-2">
-              An array of private mixers, firesides, and outdoor experiences
-              throughout the week.
+              Discover the future of AI through expert talks and hands-on
+              experiences at SF's AI events.
             </div>
           </div>
         </div>

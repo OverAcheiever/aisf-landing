@@ -10,6 +10,8 @@ import Speakers from "@/components/speakers";
 import Sponsors from "@/components/Sponsors";
 import CTA from "@/components/CTA";
 import Background from "@/components/Background";
+import Rewind from "@/components/Rewind";
+import Hosts from "@/components/Hosts";
 
 const jakarta = Plus_Jakarta_Sans({
   subsets: ["latin"],
@@ -22,14 +24,16 @@ const Home = () => {
       <Background />
       <SEO />
       <Header />
-      <Marquee text="May 15 - 19" />
+      {/* <Marquee text="May 15 - 19" /> */}
       <Hero />
       <Info />
-      <Events />
+      <Rewind />
+      {/* <Events /> */}
+      <Hosts />
       <Speakers />
       <Sponsors />
-      <Marquee text="May 15 - 19" />
-      <CTA />
+      {/* <Marquee text="May 15 - 19" /> */}
+      {/* <CTA /> */}
     </div>
   );
 };
