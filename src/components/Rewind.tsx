@@ -12,7 +12,7 @@ const Rewind = () => {
         <div className="font-bold font-feature text-4xl lg:text-7xl">
           2023 Rewind
         </div>
-        <div className="p-5 w-80 lg:w-[420px] bg-white/[.05] rounded-lg border border-white/[.1] mx-6 lg:mx-0">
+        <div className="p-5 w-80 lg:w-[600px] bg-white/[.05] rounded-lg border border-white/[.1] mx-6 lg:mx-0">
           <TwitterTweetEmbed tweetId="1660765392581840896" />
         </div>
       </div>
