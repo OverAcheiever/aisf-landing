@@ -13,18 +13,17 @@ const Info = () => {
           <div className="-mt-1 ">
             <div className="flex flex-row items-start">
               <a
-                href="https://lu.ma/aisf-hack"
+                // href="https://lu.ma/aisf-hack"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="font-semibold text-xl hover:underline cursor-pointer"
+                className="font-semibold text-xl"
               >
                 Coworking{" "}
               </a>
-              <ArrowUpRight className="ml-0.5 w-4" />
+              {/* <ArrowUpRight className="ml-0.5 w-4" /> */}
             </div>
             <div className="opacity-75 mt-2">
-              Work out of the Founders, Inc. lab twice a month alongside other
-              AI hackers.
+              Hack on your projects at the Founders, Inc. lab twice a month w/ the rest of the community.
             </div>
           </div>
         </div>
@@ -33,18 +32,18 @@ const Info = () => {
           <div className="-mt-1">
             <div className="flex flex-row items-start">
               <a
-                href="https://lu.ma/aisf"
+                // href="https://lu.ma/aisf"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="font-semibold text-xl hover:underline cursor-pointer"
+                className="font-semibold text-xl"
               >
                 Speaker Panels{" "}
               </a>
-              <ArrowUpRight className="ml-0.5 w-4" />
+              {/* <ArrowUpRight className="ml-0.5 w-4" /> */}
             </div>
             <div className="opacity-75 mt-2">
-              Get invited to private panels and keynotes from AI industry
-              leaders.
+              Get invited to private panels and keynotes from AI thought
+              leaders and industry experts.
             </div>
           </div>
         </div>
@@ -53,18 +52,18 @@ const Info = () => {
           <div className="-mt-1">
             <div className="flex flex-row items-start">
               <a
-                href="https://lu.ma/omarwasm"
+                // href="https://lu.ma/omarwasm"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="font-semibold text-xl hover:underline cursor-pointer"
+                className="font-semibold text-xl"
               >
                 Meetups{" "}
               </a>
-              <ArrowUpRight className="ml-0.5 w-4" />
+              {/* <ArrowUpRight className="ml-0.5 w-4" /> */}
             </div>
             <div className="opacity-75 mt-2">
-              Discover the future of AI through expert talks and hands-on
-              experiences at SF's AI events.
+              Meet other builders at our exclusive mixers and curated
+              experiences.
             </div>
           </div>
         </div>

@@ -20,7 +20,7 @@ const Header = () => {
         <div className="flex items-center">
           <div className="hidden sm:flex gap-x-10 mr-10">
             <Link href="/#rewind2023">2023 Rewind</Link>
-            <Link href="/#hosts">Hosts</Link>
+            {/* <Link href="/#hosts">Hosts</Link> */}
             <Link href="/#speakers">Speakers</Link>
             <Link href="/#sponsors">Sponsors</Link>
           </div>

@@ -29,7 +29,7 @@ const Home = () => {
       <Info />
       <Rewind />
       {/* <Events /> */}
-      <Hosts />
+      {/* <Hosts /> */}
       <Speakers />
       <Sponsors />
       {/* <Marquee text="May 15 - 19" /> */}

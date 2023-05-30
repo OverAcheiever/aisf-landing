@@ -94,7 +94,7 @@ const Speakers = () => {
     <div className="pt-32 lg:pt-60 w-full flex justify-center" id="speakers">
       <div className="w-full max-w-screen-xl">
         <div className="text-5xl lg:text-6xl text-center font-bold">
-          Past Speakers
+          Previous Speakers
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 justify-items-center justify-center gap-y-8 mt-16 lg:mt-24">
           {speakers.map((speaker, key) => (
